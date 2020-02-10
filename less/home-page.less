@@ -1,4 +1,7 @@
 // Home Content
+@phone: ~"only screen and (min-width: 500px) and (max-width: 20px)";
+@header-font-color: gray;
+@footer-font-color: gray;
 
 .home {
   .intro {
@@ -93,13 +96,13 @@
       }
 
       .btn {
-        .buttoned(@header-font-color, @footer-font-color);
+        // .buttoned(@header-font-color, @footer-font-color);
         @media @phone {
           width: 100%;
           padding: 22px 0 22px 0;
         }
         &:hover {
-          .rotate-scale-up;
+          // .rotate-scale-up;
         }
       }
     }
