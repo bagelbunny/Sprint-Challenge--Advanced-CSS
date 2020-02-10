@@ -9,10 +9,17 @@
   flex-direction: column;
   border-bottom: @nav-border;
   background: @nav-bg;
-  opacity: 25%;
+  opacity: 85%;
   .logo {
     text-align: center;
     margin: 1rem 0 1rem 0;
+    h1 {
+      font-size: 4rem;
+      padding-top: 10px;
+      @media @phone {
+        font-size: 3.2rem;
+      }
+    }
   }
   nav {
     .flexed;

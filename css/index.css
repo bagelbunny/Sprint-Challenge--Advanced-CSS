@@ -141,7 +141,7 @@ html {
 html,
 body {
   font-family: "Ubuntu", sans-serif;
-  color: #5E6164;
+  color: #5e6164;
 }
 h1,
 h2,
@@ -172,13 +172,22 @@ p {
   opacity: 0.8;
   display: flex;
   flex-direction: column;
-  border-bottom: #F1F1F1;
-  background: #F6F6F6;
-  opacity: 25%;
+  border-bottom: #f1f1f1;
+  background: #f6f6f6;
+  opacity: 85%;
 }
 .navigation .logo {
   text-align: center;
   margin: 1rem 0 1rem 0;
+}
+.navigation .logo h1 {
+  font-size: 4rem;
+  padding-top: 10px;
+}
+@media only screen and (min-width: 500px) and (max-width: 20px) {
+  .navigation .logo h1 {
+    font-size: 3.2rem;
+  }
 }
 .navigation nav {
   display: flex;
@@ -194,7 +203,7 @@ p {
 .navigation a {
   margin: 1rem 0rem 1rem 0rem;
   text-decoration: none;
-  color: #454A59;
+  color: #454a59;
 }
 footer {
   color: #22283b;
@@ -207,7 +216,7 @@ footer {
   align-items: center;
 }
 .home .intro img {
-  margin-top: 87px;
+  margin-top: 130px;
   width: 100%;
 }
 .home .intro h2 {
@@ -289,10 +298,35 @@ footer {
 .home .walk .walk-text p {
   margin-bottom: 26px;
 }
+.home .walk .walk-text .btn {
+  background-color: #22283a;
+  width: 100px;
+  border: 1px solid #585353;
+  color: #f5ebeb;
+  padding: 8px 0;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: bold;
+  transition: 0.2s;
+  text-align: center;
+}
+.home .walk .walk-text .btn:hover {
+  color: #22283a;
+  background-color: white;
+  border: 1px solid #22283a;
+}
 @media only screen and (min-width: 500px) and (max-width: 20px) {
   .home .walk .walk-text .btn {
+    background-color: #22283a;
     width: 100%;
-    padding: 22px 0 22px 0;
+    border: 1px solid #585353;
+    padding: 15px 0;
   }
 }
 .home .walk .walk-img {
