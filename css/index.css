@@ -93,3 +93,91 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+
+@media (max-width:500px) {
+    .navigation nav {
+      width: 80%;
+    }
+}
+
+@media (max-width:500px) {
+    .home .intro h2 {
+      margin: 0 auto;
+    }
+}
+
+@media (max-width:500px) {
+    .home .intro p {
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+}
+
+@media (max-width:500px) {
+    .home .space-images img {
+      margin: 0 auto;
+      width: 92%;
+    }
+}
+@media (max-width:500px) {
+    .home .space-images .launch,
+    .home .space-images .sky {
+      display: none;
+}
+}
+@media (max-width:500px) {
+    .home .walk {
+      flex-direction: column-reverse;
+      margin: 0 auto;
+      padding: 0px;
+      width: 92%;
+    }
+  }
+
+  @media (max-width:500px) {
+    .home .walk .walk-text {
+      margin: 10px 0 10px 0;
+      width: 100%;
+    }
+  }
+
+  @media (max-width:500px) {
+    .home .walk .walk-text .btn {
+      width: 100%;
+      padding: 22px 0 22px 0;
+    }
+  }
+
+  @media (max-width:500px) {
+    .home .walk .walk-img {
+      margin: 0 auto;
+      margin-top: 15px;
+      width: 100%;
+    }
+  }
+
+  @media (max-width:500px) {
+    .home .blog-style1 h2 {
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width:500px) {
+    .home .blog-style1 p {
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  }
+
+  @media (max-width:500px) {
+    .home .About-Us h2 {
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width:500px) {
+    .home .About-Us p {
+      margin: 0 auto;
+      margin-bottom: 10px;
+    }
+  }
