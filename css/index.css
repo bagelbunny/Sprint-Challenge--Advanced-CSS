@@ -184,7 +184,7 @@ p {
   font-size: 4rem;
   padding-top: 10px;
 }
-@media only screen and (min-width: 500px) and (max-width: 20px) {
+@media (max-width: 500px) {
   .navigation .logo h1 {
     font-size: 3.2rem;
   }
@@ -195,7 +195,7 @@ p {
   width: 45%;
   justify-content: space-around;
 }
-@media only screen and (min-width: 500px) and (max-width: 20px) {
+@media (max-width: 500px) {
   .navigation nav {
     width: 80%;
   }
@@ -222,7 +222,7 @@ footer {
 .home .intro h2 {
   padding: 15px;
 }
-@media only screen and (min-width: 500px) and (max-width: 20px) {
+@media (max-width: 500px) {
   .home .intro h2 {
     margin: 0 auto;
   }
@@ -230,7 +230,7 @@ footer {
 .home .intro p {
   padding: 0 15px;
 }
-@media only screen and (min-width: 500px) and (max-width: 20px) {
+@media (max-width: 500px) {
   .home .intro p {
     margin: 0 auto;
     margin-bottom: 10px;
@@ -247,13 +247,13 @@ footer {
   border-radius: 20px;
   height: 100%;
 }
-@media only screen and (min-width: 500px) and (max-width: 20px) {
+@media (max-width: 500px) {
   .home .space-images img {
     margin: 0 auto;
     width: 92%;
   }
 }
-@media only screen and (min-width: 500px) and (max-width: 20px) {
+@media (max-width: 500px) {
   .home .space-images .launch,
   .home .space-images .sky {
     display: none;
@@ -275,7 +275,7 @@ footer {
   display: flex;
   justify-content: center;
 }
-@media only screen and (min-width: 500px) and (max-width: 20px) {
+@media (max-width: 500px) {
   .home .walk {
     flex-direction: column-reverse;
     margin: 0 auto;
@@ -286,7 +286,7 @@ footer {
 .home .walk .walk-text {
   width: 50%;
 }
-@media only screen and (min-width: 500px) and (max-width: 20px) {
+@media (max-width: 500px) {
   .home .walk .walk-text {
     margin: 10px 0 10px 0;
     width: 100%;
@@ -321,7 +321,7 @@ footer {
   background-color: white;
   border: 1px solid #22283a;
 }
-@media only screen and (min-width: 500px) and (max-width: 20px) {
+@media (max-width: 500px) {
   .home .walk .walk-text .btn {
     background-color: #22283a;
     width: 100%;
@@ -333,7 +333,7 @@ footer {
   width: 46%;
   margin-left: 4%;
 }
-@media only screen and (min-width: 500px) and (max-width: 20px) {
+@media (max-width: 500px) {
   .home .walk .walk-img {
     margin: 0 auto;
     margin-top: 15px;
@@ -352,7 +352,7 @@ footer {
 .home .blog-style1 h2 {
   padding: 15px;
 }
-@media only screen and (min-width: 500px) and (max-width: 20px) {
+@media (max-width: 500px) {
   .home .blog-style1 h2 {
     margin: 0 auto;
   }
@@ -361,7 +361,7 @@ footer {
   padding: 0 15px;
   margin: 20px;
 }
-@media only screen and (min-width: 500px) and (max-width: 20px) {
+@media (max-width: 500px) {
   .home .blog-style1 p {
     margin: 0 auto;
     margin-bottom: 10px;
@@ -385,21 +385,21 @@ footer {
   padding: 15px;
   text-align: center;
 }
-@media only screen and (min-width: 500px) and (max-width: 20px) {
+@media (max-width: 500px) {
   .home .About-Us h2 {
     margin: 0 auto;
   }
 }
 .home .About-Us h3 {
   text-align: center;
-  color: aquamarine;
+  color: #ff7faa;
 }
 .home .About-Us p {
   text-align: center;
   padding: 0 15px;
   margin: 20px;
 }
-@media only screen and (min-width: 500px) and (max-width: 20px) {
+@media (max-width: 500px) {
   .home .About-Us p {
     margin: 0 auto;
     margin-bottom: 10px;
