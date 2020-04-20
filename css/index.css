@@ -181,7 +181,7 @@ p {
   margin: 1rem 0 1rem 0;
 }
 .navigation .logo h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   padding-top: 10px;
 }
 @media (max-width: 500px) {
@@ -392,7 +392,7 @@ footer {
 }
 .home .About-Us h3 {
   text-align: center;
-  color: #ff7faa;
+  color: #dc6389;
 }
 .home .About-Us p {
   text-align: center;
