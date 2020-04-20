@@ -188,6 +188,11 @@ p {
   .navigation .logo h1 {
     font-size: 3.2rem;
   }
+  .nav {
+    width: 100%;
+    background: #f6f6f6;
+    border-bottom: 2px solid #f1f1f1;
+  }
 }
 .navigation nav {
   display: flex;
@@ -364,7 +369,7 @@ footer {
 @media (max-width: 500px) {
   .home .blog-style1 p {
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
 .home .ContactUs h2 {
