@@ -181,12 +181,17 @@ p {
   margin: 1rem 0 1rem 0;
 }
 .navigation .logo h1 {
-  font-size: 4rem;
+  font-size: 5rem;
   padding-top: 10px;
 }
 @media (max-width: 500px) {
   .navigation .logo h1 {
     font-size: 3.2rem;
+  }
+  .nav {
+    width: 100%;
+    background: #f6f6f6;
+    border-bottom: 2px solid #f1f1f1;
   }
 }
 .navigation nav {
@@ -319,7 +324,7 @@ footer {
 .home .walk .walk-text .btn:hover {
   color: #22283a;
   background-color: white;
-  border: 1px solid #22283a;
+  border: 1px solid #020510;
 }
 @media (max-width: 500px) {
   .home .walk .walk-text .btn {
@@ -364,7 +369,7 @@ footer {
 @media (max-width: 500px) {
   .home .blog-style1 p {
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 }
 .home .ContactUs h2 {
@@ -392,7 +397,7 @@ footer {
 }
 .home .About-Us h3 {
   text-align: center;
-  color: #ff7faa;
+  color: #dc6389;
 }
 .home .About-Us p {
   text-align: center;
